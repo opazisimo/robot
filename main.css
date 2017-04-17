@@ -1,0 +1,30 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background-color: Cornsilk;
+}
+
+#tablero{
+  width: 50%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.sqr{
+  width: 10%;
+  height: 10%;
+  border: 1px solid white;
+  background-color: DarkSalmon;
+  display: inline-block;
+}
+
+.robot{
+  background-color: Crimson;
+  border: 3px solid Crimson;
+}
+
+.recorrido{
+  background-color: LightGreen;
+}
